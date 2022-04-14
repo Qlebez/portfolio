@@ -1,0 +1,54 @@
+.Contact {
+    background-color: rgb(79, 97, 129);
+    height: 55vh;
+    color: white;
+}
+
+.Contact {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Contact h1, .Contact h2, .Contact h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+.Contact img {
+    margin-right: 1%;
+    width: 7vh;
+}
+
+.ways {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ways img {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 920px) {
+    .Contact {
+        height: auto;
+    }
+
+
+    .ways {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+        margin-right: 2%;
+    }
+
+    .Contact img {
+        margin-right: 1%;
+        width: 5vh;
+    }
+  }

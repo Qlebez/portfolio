@@ -1,0 +1,81 @@
+.skills {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #8c7ae6;
+}
+
+
+.skills h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills .known .kicons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.kicons img {
+    width: 5%;
+    height: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.skills h2 {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills .known {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.learning img {
+    width: 5%;
+    height: 5%;
+    margin-top: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+}
+
+.skills .learning {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.skills .learning .licons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 920px) {
+    .learning img {
+        width: 10%;
+        height: 10%;
+    }
+
+    .kicons img {
+        width: 15%;
+        height: 15%;
+    }
+
+    .skills .known .kicons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+  }

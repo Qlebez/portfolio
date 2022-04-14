@@ -1,0 +1,11 @@
+iframe {
+    width: 200vh;
+    height: 100vh;
+}
+
+@media screen and (max-width: 920px) {
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}

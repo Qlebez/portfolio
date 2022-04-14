@@ -1,0 +1,39 @@
+.footer {
+    box-sizing: border-boxs;
+    margin: 0;
+    padding: 0;
+    background-color: #192a56;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+.footer h3 {
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer h1 {
+    margin-left: 5%;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer h1, .footer h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer h3 {
+        margin-left: 12%;
+    }
+}
