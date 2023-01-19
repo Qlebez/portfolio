@@ -13,7 +13,7 @@ const Project = ({title, content,link}) => {
         <div className='window'>
           <h1>{title}</h1>
           <p>{content}</p>
-          <button> <Link onClick={() => document.body.scrollIntoView({ behavior: "smooth" })} to={link}>PDF Summary</Link></button>    
+          <button> <Link onClick={() => document.body.scrollIntoView({ behavior: "smooth" })} to={link}>More information</Link></button>    
         </div>
       </div>
     );
