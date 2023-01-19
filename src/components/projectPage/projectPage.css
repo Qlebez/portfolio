@@ -29,6 +29,9 @@
     flex-direction: column;
     width: 33%;
     margin-left: 15vw;
+    padding-right: 15%;
+    margin-bottom: 5vh;
+    font-size: large;
 }
 
 .desc-project p {
@@ -42,6 +45,19 @@
     display: flex;
     justify-content: center;
     padding-top: 5vh;
+}
+
+.image-project img {
+    width: 100%;
+    height: auto;
+  }
+
+.image-project {
+    flex: 1;
+}
+
+.desc-project {
+    flex: 1;
 }
 
 @media screen and (max-width: 920px) {
