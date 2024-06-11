@@ -19,8 +19,8 @@ div {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #183642;
-  color: white;
+  background-color: #F1ECCE;
+  color: black;
 }
 
 h1 {

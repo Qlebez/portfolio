@@ -14,9 +14,6 @@ importers:
       axios:
         specifier: ^1.2.1
         version: 1.7.2
-      devicon:
-        specifier: ^2.16.0
-        version: 2.16.0
       pinia:
         specifier: ^2.0.11
         version: 2.1.7(typescript@4.9.5)(vue@3.4.27(typescript@4.9.5))
@@ -706,9 +703,6 @@ packages:
   destroy@1.2.0:
     resolution: {integrity: sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
-
-  devicon@2.16.0:
-    resolution: {integrity: sha512-PE5a2HBNeN4av+Iu975OiiWEwS8LJPw5HAvlv0JUHb62jZTdYxTpz4ga+cQyvdtb3x1side2P9Sr1mmOmUkO/g==}
 
   dir-glob@3.0.1:
     resolution: {integrity: sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==}
@@ -2781,8 +2775,6 @@ snapshots:
   depd@2.0.0: {}
 
   destroy@1.2.0: {}
-
-  devicon@2.16.0: {}
 
   dir-glob@3.0.1:
     dependencies:
