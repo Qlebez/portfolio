@@ -8,7 +8,7 @@
           Joined Watsoft as an apprentice FullStack Developer
           Maintain and develop new features for the company's website using C#, .NET Core,
           VueJS, Quasar and Microsoft SQL Server
-        </div>
+        </div>  
       </q-timeline-entry>
 
       <q-timeline-entry title="Internship in Germany" subtitle="April - June 2023" side="right" icon="delete">
